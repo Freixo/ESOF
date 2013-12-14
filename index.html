@@ -7,7 +7,7 @@
 		<title>ESOF - HTML5</title>
 
 		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="author" content="JP Dias">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -99,7 +99,7 @@
 				<h2>Aplicações Nativas</h2>
 				<ul>
 				<div id="play">
-						<img  height="150" width="150" src="data/play.png">
+						<img  height="160" width="160" src="data/play.png">
 				</div>
 				<li>Desenvolvidas para plataformas específicas</li>
 				
@@ -114,7 +114,11 @@
 				<section>
 					<h2>Aplicações HTML5</h2>
 					<ul>
+					
 					<li>Correm em qualquer plataforma</li>
+						<div id="play">
+						<img  height="150" width="270" src="data/js.png">
+				</div>
 					<ul><li>Browser moderno - implemente os standarts mais recentes</li></ul>
 					<li>Existem na web e são acedidas através do browser do diapositivo móvel do utilizador</li>
 					</ul>
@@ -139,7 +143,7 @@
 						<img  src="data/stats.png" alt="Meny">
 					</a>
 					<ul>
-					<li>Os utilizadore preferem aplicações nativas</li>
+					<li>Os utilizadores preferem aplicações nativas</li>
 					<ul><li>Melhor performance, usabilidade e segurança</li></ul>
 					<li>Os developers/publishers preferem aplicações HTML5</li>
 					<ul><li>Adaptação a qualquer OS, lucros totais para os criadores e só necessita de uma aprovação</li></ul>
@@ -147,16 +151,21 @@
 				</section>
 
 				<section>
-					<h2>Aplicações HTML5 vs Nativas</h2>
+				<h2>Aplicações HTML5 vs Nativas</h2>
+				<center>
+					<a class="image" target="_blank" >
+						<img height="430" width="600" src="data/graph.png" alt="Meny">
+					</a>
 					<ul>
-					<li>Experiência do utilizador e desempenho</li>
+				</center>
+				<!--	<li>Experiência do utilizador e desempenho</li>
 					<li>Monetização</li>
 					<li>Custo e facilidade de desenvolvimento</li>
 					<li>Fragmentação</li>
-					<li>Importância de updates</li>
+					<li>Updates e controlo de distribuição</li>
 					<li>Dependência de funcionalidades do SO/Hardware</li>
 					<li>Segurança</li>
-					</ul>
+					</ul>-->
 					<aside class="notes">
 					O que varia!?
 						Uma aplicação nativa, como é instalada directamente no dispositivo sem ligação à internet.
@@ -178,20 +187,28 @@
 	
 				<section>
 				<h3>Monetização</h3>
+				
 				<p>As aplicações nativas são fáceis de rentabilizar devido
-				as Lojas de Aplicações, por outro lado as Web Apps tem dificuldades devido:</p>
-				<ul>
-				<li>Dificuldade de descoberta</li>
-				<li>Limitações de suporte</li>
-				<li>Falta de modelos de anúncios</li>
-				<li>Hesitação pelos utilizadores</li>
-				<li>Inexistência de modelos de pagamento</li>
-				</ul>
+				as Lojas de Aplicações, por outro lado as Web Apps tem dificuldade de
+				descoberta, falta de modelos de anúncio,...
+				
+				</p>
+		
+						<img  height="240" width="360" src="data/nt.gif">
+			<aside class="notes">
+				Dificuldade de descoberta
+			    
+				Limitações de suporte
+				Falta de modelos de anúncios
+				Hesitação pelos utilizadores
+				Inexistência de modelos de pagamento
+				
+			</aside>
 				</section>
 				
 				<section>
 				<h3>Custo e facilidade de desenvolvimento</h3>
-				<p><b>Aplicações nativas:</b> maior investimento devido a recursos e tempo necessário para desenvolver</p>
+				<p><b>Aplicações nativas:</b> maior investimento devido aos recursos e tempo necessário para desenvolver</p>
 				<p>		Linguagens diferentes para cada OS (Java, Objective C, .NET)</p>
 				<br/>
 				<p><b>Aplicações HTML5:</b> menor investimento e mais fácil de desenvolver</p>
@@ -200,26 +217,60 @@
 				
 				<section>
 				<h3>Fragmentação</h3>
+				<p><b>Apps Nativas: </b>necessidade de suportar multiplas plataformas.</p>
+				
+				<p><b>Web Apps:</b> necessitam de suportar diferentes browsers, com diferente suporte as versões do HTML.
+				</p>
 				
 				</section>
 				
 				<section>
-				<h3>Importância dos Updates</h3>
-				
+				<h3>Updates e controlo de distribuição</h3>
+				<p>As Apps HTML5 como não são instaladas são actualizadas no momento do update.</p>
+				<p>As rapidez de updates das apps nativas dependem da loja de distribuição</p>
 				</section>
 				
 				<section>
 				<h3>Dependência de funcionalidades do SO/Hardware</h3>
-				
+				<p>Apps Nativas</p>
+				<ul>
+				<li>Podem utilizar funcionalidades de hardware</li>
+				<ul><li>Acelarómetro, GPS,  Câmara, Giroscópio, ... </li></ul>
+				<li>Podem utilizar funcionalidades do SO</li>
+				<ul><li>Touch events, integração com o ambiente do SO</li></ul>
+				<br/>
+				</ul>
+				<p>Apps HTML5</p>
+				<ul>
+					<li>Dependem da interface do browser</li>
+					<li>Muitas limitações na utilização de hardware</li>
+				</ul>
 				</section>
 				
 				<section>
 				<h3>Segurança</h3>
+				<p>Web Apps</p>
+				<ul><li>Facilidade de ataque
+				</li>
+				<ul><li>cross-site scripting</li> <li>cookie manipulation</li> <li> sql injection</li></ul>
+				<li>Dados em cache não encriptados</li></ul>
+				<br/><br/>
+				<p>Apps Nativas</p>
 				
+				<ul><li>Mais difíceis de atacar</li><li>Mais fáceis de tornar seguras</li></ul>
 				</section>
 				
 				<section>
 				<h2>Frameworks de Desenvolvimento</h2>
+				<a class="image" target="_blank">
+						<img  src="data/platforms.png" alt="Meny">
+					</a>
+				</section>
+				<section>
+				<h2>Is it the end of native apps?</h2>
+				
+				<h1>NO.</h1>
+				<p>Pelo menos por agora.</p>
 				
 				</section>
 			</div>
