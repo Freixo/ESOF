@@ -1,36 +1,36 @@
 <!doctype html>
 <html lang="en">
 
-	<head>
-		<meta charset="utf-8">
+<head>
+	<meta charset="utf-8">
 
-		<title>ESOF - HTML5</title>
+	<title>ESOF - HTML5</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="JP Dias">
+	<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+	<meta name="author" content="JP Dias">
 
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+	<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/sky.css" id="theme">
 
-		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+	<!-- For syntax highlighting -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
-		<script>
-			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
-		</script>
+	<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+	<script>
+	document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+	</script>
 
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
-		 <!-- css for footer and page number -->
-    <style type="text/css">
-        footer{
+		<!-- css for footer and page number -->
+		<style type="text/css">
+		footer{
 			box-shadow: 10px 10px 5px #888888;
 			clear:both;
 			font-size:20px;
@@ -40,87 +40,93 @@
 			position:absolute;
 			bottom:0;
 			width: 100%;
-        }
- 
-        footer div{	
+		}
+
+		footer div{	
 			margin:0 auto;
 			text-align: center;
-        }
+		}
 		#play{
 			z-index:24;
 			float:right;
 			border:0px;
 		}
-    </style>
+		</style>
 	</head>
 
 	<body>
 		<footer>
 			<div><img src="data/feup.png" alt="FEUP" height="63" width="180"></div>
 		</footer>
- 
+
 		<div class="reveal">
-		
+
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
 					<h2>HTML5 and Mobile Apps</h2>
 					<h3>Is it the end of native apps?</h3>
 					<p>
-						<small><h3>Engenharia de Software</h3><a>João Pedro Dias<br>Pedro Rocha<br>Hugo Freixo<br>Maria João Araújo</a></small>
+						<small><h3>Engenharia de Software</h3><a>João Pedro Dias<br>Pedro Rocha<br>Hugo Freixo<br>Maria João Araújo - ei09034</a></small>
 					</p>
 				</section>
 
 				<section>
 					<h2>Tópicos</h2>
+					<ul>
+						<li>Aplicações:</li>
 						<ul>
-        <li>Aplicações:</li>
-		<ul>
-      	<li>HTML5</li>
-        <li>Nativas</li>
-        <li>Híbridas</li>
-		</ul>
-		<li>Tendências de Mercado</li>
-		<li>Aplicações HTML5 vs Nativas</li>
-		<li>Frameworks de Desenvolvimento</li>
-		<li>Is it the end of native apps?</li>
-      </ul>
+							<li>HTML5</li>
+							<li>Nativas</li>
+							<li>Híbridas</li>
+						</ul>
+						<li>Tendências de Mercado</li>
+						<li>Aplicações HTML5 vs Nativas</li>
+						<li>Frameworks de Desenvolvimento</li>
+						<li>Is it the end of native apps?</li>
+					</ul>
 
 					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+						
 					</aside>
 				</section>
 
 				<!-- Example of nested vertical slides -->
 				<section>
-				
+
 					
-				
-				<h2>Aplicações Nativas</h2>
-				<ul>
-				<div id="play">
-						<img  height="160" width="160" src="data/play.png">
-				</div>
-				<li>Desenvolvidas para plataformas específicas</li>
-				
-				
-				<li>Distribuídas através de lojas virtuais </li>
-				<ul><li>Play Store, Windows Store, App Store</li></ul>
-				<li>Instaladas diretamente no diapositivo do utilizador</li>
-				</ul>
-				
+
+					<h2>Aplicações Nativas</h2>
+					<ul>
+						<li>Desenvolvidas para plataformas específicas</li>
+						<li>Instaladas directamente no dispositivo do utilizador</li>
+						<li>Distribuídas através de lojas virtuais</li>
+						<ul><li>Play Store, Windows Store, App Store, Blackberry App World, Firefox Marketplace, Tizen Store </li></ul>
+						<div id="play">
+							<img  height="25%" width="25%" src="data/play.png">
+							<img src="data/200px-WindowsPhoneStore.png" height="20%" width="20%">
+							<img src="data/app_store_icon.png" height="20%" width="20%">
+							<img src="data/icon-marketplace.png" height="22%" width="22%">
+						</div>
+
+					</ul>
+
+					<aside class="notes">
+						As aplicações híbridas, neste caso, são iguais às aplicações nativas.
+					</aside>
+
 				</section>
 
 				<section>
 					<h2>Aplicações HTML5</h2>
 					<ul>
-					
-					<li>Correm em qualquer plataforma</li>
+
+						<li>Correm em qualquer plataforma</li>
 						<div id="play">
-						<img  height="150" width="270" src="data/js.png">
-				</div>
-					<ul><li>Browser moderno - implemente os standarts mais recentes</li></ul>
-					<li>Existem na web e são acedidas através do browser do diapositivo móvel do utilizador</li>
+							<img height="150" width="270" src="data/js.png">
+						</div>
+						<ul><li>Um browser moderno implementa a maioria dos standarts mais recentes do HTML5</li></ul>
+						<li>Existem na web e são acedidas através do motor de browser do dispositivo móvel do utilizador</li>
 					</ul>
 					<br/><br/>
 					<blockquote cite="Sun Microsystems">
@@ -131,167 +137,239 @@
 				<section>
 					<h2>Aplicações Híbridas</h2>
 					<ul>
-					<li>Desenvolvidas sobre uma base de código nativo</li>
-					<li>Utilizam o motor do browser do OS para correr
-					HTML e processar JavaScript localmente, que constitui a aplicação</li>
-					</ul>
-				</section>
+						<li>Desenvolvidas sobre uma base de código nativo</li>
+						<li>Utilizam o motor do browser do OS para correr
+							HTML e processar JavaScript localmente, o que constitui a aplicação</li>
+						</ul>
+					</section>
 
-				<section>
-					<h2>Tendências de mercado</h2>
-					<a class="image" target="_blank">
-						<img  src="data/stats.png" alt="Meny">
-					</a>
-					<ul>
-					<li>Os utilizadores preferem aplicações nativas</li>
-					<ul><li>Melhor performance, usabilidade e segurança</li></ul>
-					<li>Os developers/publishers preferem aplicações HTML5</li>
-					<ul><li>Adaptação a qualquer OS, lucros totais para os criadores e só necessita de uma aprovação</li></ul>
-					</ul>
-				</section>
+					<section>
+						<a class="image" target="_blank">
+							<img  src="data/native-hybrid-web-app-comparasion.png" alt="Meny">
+						</a>
 
-				<section>
-				<h2>Aplicações HTML5 vs Nativas</h2>
-				<center>
-					<a class="image" target="_blank" >
-						<img height="430" width="600" src="data/graph.png" alt="Meny">
-					</a>
-					<ul>
-				</center>
-				<!--	<li>Experiência do utilizador e desempenho</li>
-					<li>Monetização</li>
-					<li>Custo e facilidade de desenvolvimento</li>
-					<li>Fragmentação</li>
-					<li>Updates e controlo de distribuição</li>
-					<li>Dependência de funcionalidades do SO/Hardware</li>
-					<li>Segurança</li>
-					</ul>-->
+						<aside class="notes">
+							As aplicações nativas são as mais complexas em termos de camadas de desenvolvimento, uma vez que tem que ter a aplicação nativa como contentor, as vistas Web, as vistas nativas e o acesso nativo ao hardware.
+						</aside>
+					</section>
+
+					<section>
+						<h2>Tendências de mercado</h2>
+						<a class="image" target="_blank">
+							<img  src="data/stats.png">
+						</a>
+						<ul>
+							<li>Os utilizadores preferem aplicações nativas</li>
+							<ul><li>Melhor performance, usabilidade e segurança</li></ul>
+							<li>Os programadores e <i>publishers</i> preferem aplicações HTML5</li>
+							<ul><li>Adaptação a qualquer OS e independência</li></ul>
+						</ul>
+					</section>
+
 					<aside class="notes">
-					O que varia!?
-						Uma aplicação nativa, como é instalada directamente no dispositivo sem ligação à internet.
-						As aplicações nativas tornam-se mais caras do que as HTML5, uma vez que é necessário desenvolver várias para cada plataforma, em vez de apenas uma, que funciona em todas as plataformas.
+					As aplicações HTML5 não necessitam de aprovação nem de partilhar os lucros com as lojas distribuidoras.
 					</aside>
-				</section>
 
-				<section>
-					<h3>Experiêcia do utilizador e desempenho</h3>
-					<a class="image" target="_blank">
-						<img height="300" width="390" src="data/apps.jpg" alt="Meny">
-					</a>
-					<p>Apps nativas: Mais rápidas e interactivas</p>
-					<p>HTML5 Web Apps: Dependem da ligação a Internet</p>
-					<aside class="notes">
-							Aplicações html5 não tem tanta integração com o OS				
-					</aside>
-				</section>
-	
-				<section>
-				<h3>Monetização</h3>
-				
-				<p>As aplicações nativas são fáceis de rentabilizar devido
-				as Lojas de Aplicações, por outro lado as Web Apps tem dificuldade de
-				descoberta, falta de modelos de anúncio,...
-				
-				</p>
-		
-						<img  height="240" width="360" src="data/nt.gif">
-			<aside class="notes">
-				Dificuldade de descoberta
-			    
-				Limitações de suporte
-				Falta de modelos de anúncios
-				Hesitação pelos utilizadores
-				Inexistência de modelos de pagamento
-				
-			</aside>
-				</section>
-				
-				<section>
-				<h3>Custo e facilidade de desenvolvimento</h3>
-				<p><b>Aplicações nativas:</b> maior investimento e tempo de desenvolvimento </p>
-				<p>		Linguagens diferentes para cada OS (Java, Objective C, .NET)</p>
-				
-				<p><b>Aplicações HTML5:</b> menor investimento e mais fácil</p>
-					<p>		HTML5, CSS e JavaScript</p>
-				</section>
-				
-				<section>
-				<h3>Fragmentação</h3>
-				<p><b>Apps Nativas: </b>necessidade de suportar multiplas plataformas
-				</p><img  height="150" width="200" src="data/lg.png"><img  height="150" width="320" src="data/log.png">
-				
-				
-				<p><b>Web Apps:</b> necessitam de suportar diferentes browsers, com diferente suporte as versões do HTML.
-				</p>
-				
-				</section>
-				
-				<section>
-				<h3>Updates e controlo de distribuição</h3>
-				<p>As Apps HTML5 como não são instaladas são actualizadas no momento do update.</p>
-				<p>As rapidez de updates das apps nativas dependem da loja de distribuição</p>
-				</section>
-				
-				<section>
-				<h3>Dependência de funcionalidades do SO/Hardware</h3>
-				<p><b>Apps Nativas</b></p>
-				<ul>
-				<li>Podem utilizar funcionalidades de hardware</li>
-				<div id="play">
-						<img  height="150" width="150" src="data/icon.png">
-				</div>
-				<ul><li>Acelarómetro, GPS,  Câmara, Giroscópio, ... </li></ul>
-				<li>Podem utilizar funcionalidades do SO</li>
-				<ul><li>Touch events, integração com o ambiente do SO</li></ul>
-				
-				</ul>
-				<p><b>Apps HTML5</b></p>
-				<ul>
-					<li>Dependem da interface do browser</li>
-					<li>Muitas limitações na utilização de hardware</li>
-				</ul>
-				</section>
-				
-				<section>
-				<h3>Segurança</h3>
-				<p><b>Web Apps</b></p>
-				<ul><li>Facilidade de ataque
-				</li>
-				<div id="play">
-						<img  height="150" width="150" src="data/sec.jpg">
-				</div>
-				<ul><li>cross-site scripting</li> <li>cookie manipulation</li> <li> sql injection</li></ul>
-				<li>Dados em cache não encriptados</li></ul>
-				<br/><br/>
-				<p><b>Apps Nativas</b></p>
-				
-				<ul><li>Mais difíceis de atacar</li><li>Mais fáceis de tornar seguras</li></ul>
-				</section>
-				
-				<section>
-				<h2>Frameworks de Desenvolvimento</h2>
-				<a class="image" target="_blank">
-						<img  src="data/platforms.png" alt="Meny">
-					</a>
-				</section>
-				<section>
-				<h2>Is it the end of native apps?</h2>
-				
-				<h1>NO.</h1>
-				<p>Pelo menos por agora.</p>
-				</section>
-				<section>
-				<h2>Obrigado!</h2>
-				<img src="data/last.jpg">
-				</section>
-			</div>
+					<section>
+						<h2>Aplicações HTML5</h2>
+						<h2>vs Nativas</h2>
+						<center>
+							<a class="image" target="_blank" >
+								<img height="430" width="600" src="data/graph.png" alt="Meny">
+							</a>
+							<ul>
+							</center>
 
-		</div>
+							<aside class="notes">
+							As vantagens das aplicações HTML5 com as das aplicações nativas quase que se complementam, o que faz com que as aplicações híbridas sejam, muitas vezes, o método ideal de desenvolvimento.
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.min.js"></script>
+							</aside>
+						</section>
 
-		<script>
+						<section>
+							<h3>Experiêcia do utilizador</h3>
+							<h3>e desempenho</h3>
+							<a class="image" target="_blank">
+								<img height="300" width="390" src="data/apps.jpg" alt="Meny">
+							</a>
+							<p><b>Aplicações Nativas:</b> Mais rápidas e interactivas</p>
+							<p><b>Aplicações Web HTML5:</b> Dependem de ligação à Internet e não tem o <i>look and feel</i> do OS</p>
+							<aside class="notes">
+
+							</aside>
+						</section>
+
+						<section>
+						<a class="image" target="_blank">
+								<img height="65%" width="65%" src="data/facebook.jpg" >
+							</a>
+							<aside class="notes">
+							Consegue-se reparar num melhor integração da aplicação nativa com o OS: botões como geralmente tem em todas as aplicações, acesso à câmera do telemóvel, não é necessário botão de share, ou de voltar para a página anterior, uma vez que isso tudo está integrado com as opções do OS.
+							</aside>
+						</section>
+
+						<section>
+						<a class="image" target="_blank">
+								<img height="65%" width="65%" src="data/voyager-screenshot-shaded_mini.png" >
+							</a>
+
+							<aside class="notes">
+							Aqui temos um exemplo de uma aplicação híbrida para tablet. Nota-se que apenas o conteúdo da aplicação é Web, e toda a parte da interface de botões e definições é feita em código nativo, para uma melhor performance e experiência do utilizador.
+							</aside>	
+						</section>
+
+						<section>
+							<h3>Monetização</h3>
+
+							<img src="data/nt.gif" height="60%" width="60%">
+							<p><b>Aplicações Nativas:</b> Mais fáceis de rentabilizar, devido às lojas de aplicações</p>
+							<aside class="notes">
+								As Web Apps tem:
+								- Dificuldade de descoberta por parte dos utilizadores
+								- Limitações de suporte
+								- Falta de modelos de anúncios
+								- Hesitação pelos utilizadores
+								- Inexistência de modelos de pagamento
+
+							</aside>
+						</section>
+
+						<section>
+							<h3>Custo e facilidade</3>
+								<h3>de desenvolvimento</h3>
+								<p><b>Aplicações Nativas:</b> 
+									<ul><li>Requerem maior investimento e tempo de desenvolvimento</li> <li>Utilizam linguagens diferentes para cada OS</li></ul></p>
+
+								<p><b>Aplicações Web HTML5:</b> 
+									<ul><li>Menor investimento e implementação mais simples</li><li>Utilizam HTML5, CSS e JavaScript</li></ul></p>
+
+
+								<aside class="notes">
+									As aplicações nativas tornam-se mais caras do que as HTML5, uma vez que é necessário desenvolver várias para cada plataforma, em vez de apenas uma, que funciona em todas as plataformas. Para além disso existe a questão da disponibilidade de programadores com experiência em certas linguagens. A oferta de programadores com conhecimentos de HTML5 é grande comparativamente com as linguagens das aplicações nativas.
+
+									As aplicações híbridas requerem menor investimento do que as aplicações nativas, mas maior do que as HTML5.
+								</aside>
+							</section>
+
+							<section>
+								<h3>Fragmentação</h3>
+								<p><b>Aplicações Nativas: </b>necessidade de suportar múltiplas versões do mesmo SO
+								</p><img  height="150" width="200" src="data/lg.png"><img  height="150" width="320" src="data/log.png">
+
+
+								<p><b>Aplicações Web HTML5:</b> necessitam de suportar diferentes browsers, tendo em conta as suas limitações
+								</p>
+
+								<aside class="notes">
+									Existe um grande número de versões para Android, o que faz com que seja necessário ter em conta todas as limitações dessas versões ao desenvolver uma aplicação. Por exemplo, em iOS este problema não é tão pronunciado, mas continua a ser um problema.
+
+									Nem todos os browsers suportam todas as funcionalidades do HTML5. Os browsers mais compatíveis actualmente são o Chrome e o Safari.
+								</aside>
+							</section>
+
+							<section>
+								<h3>Actualizações e controlo de versões</h3>
+								<p><b>Aplicações Nativas: </b>a rapidez de actualização depende da loja de distribuição e do seu download</p>
+								<p><b>Aplicações Web HTML5: </b>são actualizadas automaticamente</p>
+							</section>
+
+							<section>
+								<h3>Utilização de funcionalidades do Hardware/SO</h3>
+								<p><b>Aplicações Nativas: </b></p>
+								<ul>
+									<li>Podem utilizar funcionalidades de hardware:</li>
+									<div id="play">
+										<img  height="150" width="150" src="data/icon.png">
+									</div>
+									<div id="play">
+										<img  height="150" width="150" src="data/android-camera.png">
+									</div>
+									<ul><li>Acelerómetro, GPS,  câmera, giroscópio... </li></ul>
+									<li>Podem utilizar funcionalidades do SO:</li>
+									<ul><li><i>Touch events</i>, <i>push notifications</i>, integração com o ambiente do SO</li>
+									</section>
+
+									<section>
+										<h3>Utilização de funcionalidades do Hardware/SO</h3>
+									</ul>
+									<p><b>Aplicações Web HTML5: </b></p>
+									<ul>
+										<li>Muitas limitações na utilização de hardware e das funcionalidades do OS</li>
+										<li>Dependem da interface do browser</li>
+									</ul>
+								</section>
+
+								<section>
+									<h3>Segurança</h3>
+									<p><b>Aplicações Nativas: </b></p>
+
+									<ul><li>Mais difíceis de atacar</li><li>Mais fáceis de tornar seguras</li></ul>
+								</section>
+
+								<section>
+									<h3>Segurança</h3>
+									<p><b>Aplicações Web HTML5: </b></p>
+									<ul><li>Facilidade de ataque
+									</li>
+									<div id="play">
+										<img  height="150" width="150" src="data/sec.jpg">
+									</div>
+									<ul><li><i>Cross-site scripting</i></li> <li><i>Cookie manipulation</i></li> <li><i>SQL injection</i></li></ul>
+									<li>Dados em cache não encriptados</li></ul>
+									<br/><br/>
+								</section>
+
+								<section>
+									<h2>Frameworks de Desenvolvimento</h2>
+									<a class="image" target="_blank">
+										<img  src="data/platforms.png" alt="Meny">
+									</a>
+								</section>
+								<section>
+									<h2>Is it the end of native apps?</h2>
+
+									<h1>NO.</h1>
+									<p>Pelo menos por agora.</p>
+								</section>
+								<section>
+									<h2>Obrigado!</h2>
+									<img src="data/last.jpg">
+								</section>
+								
+								<section>
+									<h2>Referências</h2>
+									<li>http://venturebeat.com/2013/11/20/html5-vs-native-vs-hybrid-mobile-apps-3500-developers-say-all-three-please/#vb-gallery:1:862913</li>
+									<li>http://dannybrown.me/2013/07/07/the-sunday-share-html5-vs-native-mobile-app-development/</li>
+									<li>http://mobile.smashingmagazine.com/2013/10/17/best-of-both-worlds-mixing-html5-native-code/</li>
+									<li>http://readwrite.com/2013/12/02/html5-mobile-native-apps-business-analytics-backend-services#awesm=~op8AKLKDHtIE2f</li>
+									
+								</section>
+
+								<section>
+									<h2>Referências</h2>
+									<li>http://www.theguardian.com/media/appsblog/2013/apr/29/financial-times-html5-no-drawbacks</li>
+									<li>http://www.businessinsider.com/html5-vs-apps-heres-why-the-debate-matters-and-who-will-win-2012-12</li>
+									<li>http://www.general-play.com/app/gp2aea18h1f5i0/Nexus%207%20Camera%20Launcher.html</li>
+									<li>http://blog.meltmedia.com/2013/05/theres-more-than-one-way-to-build-mobile-apps/#.Uq1fApFUCOM</li>
+									<li>http://www.turtle-media.com/blog/2012/07/14/native-app-vs-web-app-why-hong-kong-mostly-gets-it-wrong/</li>
+									
+								</section>	
+
+								<section>
+									<h2>Referências</h2>
+									<li>http://www.iphonehacks.com/2013/08/judge-dismisses-app-store-monopoly-lawsuit.html</li>
+									<li>http://logos.wikia.com/wiki/Windows_Phone_Store</li>
+									<li>http://www.mozilla.org/en-US/about/partnerships/</li>
+									<li>http://www.clickz.com/clickz/column/2291711/html5-vs-mobile-apps-the-good-bad-and-ugly</li>
+								</section>
+							</div>
+
+						</div>
+
+						<script src="lib/js/head.min.js"></script>
+						<script src="js/reveal.min.js"></script>
+
+						<script>
 
 			// Full list of configuration options available here:
 			// https://github.com/hakimel/reveal.js#configuration
@@ -310,16 +388,16 @@
 
 				// Optional libraries used to extend on reveal.js
 				dependencies: [
-					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+				{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+				{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
 				]
 			});
 
-		</script>
+</script>
 
-	</body>
+</body>
 </html>
